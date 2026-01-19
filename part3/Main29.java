@@ -1,3 +1,4 @@
+package part3;
 class Employee{
     void greet(){
         System.out.println("Hello Employee");

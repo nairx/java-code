@@ -1,3 +1,4 @@
+package part3;
 class Employee1 {
     String company = "JP Morgan";
     void greet() {

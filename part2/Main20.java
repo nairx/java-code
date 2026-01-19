@@ -1,3 +1,4 @@
+package part2;
 public class Main20 {
     static void greet() {
         System.out.println("Good Morning");

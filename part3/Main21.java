@@ -1,3 +1,4 @@
+package part3;
 // Create two method sum and sqr
 // pass two numbers to sum method and 
 // then pass the result to sqr

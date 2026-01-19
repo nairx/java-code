@@ -1,9 +1,9 @@
-public class Main9 {
+package part1;
+public class Main10 {
     public static void main(String[] args){
-        int counter = 1;
-        while (counter <= 10){
+        for(int counter=1;counter<=10;counter++){
             System.out.println(counter);
-            counter++;
         }
     }
 }
+

@@ -1,3 +1,4 @@
+package part2;
 public class Main15 {
     public static void main(String[] args){
         String[] names={"John","Amy","Mike","Cathy"};

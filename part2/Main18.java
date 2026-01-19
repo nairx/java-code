@@ -1,3 +1,4 @@
+package part2;
 public class Main18 {
     public static void main(String[] args){
         int num = Integer.parseInt(args[0]);
