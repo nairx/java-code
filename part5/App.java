@@ -1,5 +1,4 @@
 package part5;
-
 class Calc {
     int a;
     int b;
@@ -10,13 +9,10 @@ class Calc {
     void add(){
         System.out.println(this.a + this.b);
     }
-
     void multiply(){
         System.out.println(this.a * this.b);
     }
-
 }
-
 public class App {
     public static void main(String[] args) {
         Calc c = new Calc(4, 5);
