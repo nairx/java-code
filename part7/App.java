@@ -1,0 +1,42 @@
+package part7;
+// Abstraction Example
+abstract class Shape {
+    abstract double calculateArea();
+
+    void display() {
+        System.out.println("This is a shape.");
+    }
+}
+class Circle extends Shape {
+    private double radius;
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+    // @Override
+    double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+}
+class Rectangle extends Shape {
+    private double length;
+    private double width;
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+    // @Override
+    double calculateArea() {
+        return length * width;
+    }
+}
+
+public class App {
+    public static void main(String[] args) {
+        Shape circle = new Circle(5);
+        Shape rectangle = new Rectangle(4, 6);
+        circle.display();
+        rectangle.display();
+        System.out.println("Circle Area: " + circle.calculateArea());
+        System.out.println("Rectangle Area: " + rectangle.calculateArea());
+    }
+}

@@ -1,5 +1,5 @@
 package part4;
-
+//Inheritance and Polymorphism Example
 class Employee {
     String name;
     int age;
